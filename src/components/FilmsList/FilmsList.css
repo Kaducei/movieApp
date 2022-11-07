@@ -1,0 +1,16 @@
+.filmListSection {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: white;
+}
+.imgSpin {
+  position: absolute;
+  left: 100px;
+  bottom: 120px;
+}
+@media (max-width: 1000px) {
+  .filmListSection {
+    flex-direction: column;
+  }
+}

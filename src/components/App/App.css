@@ -1,0 +1,70 @@
+@import '~antd/dist/antd.css';
+body {
+  background-color: #e5e5e5;
+}
+.moviesApp {
+  padding: 5px 30px 5px 30px;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  max-width: 1000px;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+.ant-layout {
+  background-color: white;
+  min-height: 100%;
+}
+.ant-layout-footer {
+  padding: 0px;
+  background-color: white;
+  display: flex;
+  margin: 16px;
+}
+#root {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0px auto;
+  background-color: white;
+  min-height: 100%;
+}
+.ant-layout-content {
+  margin: 16px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  min-height: 800px;
+}
+.ant-tabs {
+  height: 100%;
+}
+.ant-tabs,
+.ant-tabs-content,
+.ant-tabs-tabpane,
+.ant-layout {
+  height: 100%;
+}
+.ant-alert {
+  left: 0;
+  position: absolute;
+  right: 0;
+  padding: 15px 15px 15px 24px;
+  margin: 0px 30px;
+}
+.none-alert {
+  display: none;
+}
+.ant-spin-spinning {
+  position: absolute;
+  right: 40px;
+  top: 3px;
+}
+.bigSpinner {
+  right: 35%;
+  top: 30%;
+  position: absolute;
+}

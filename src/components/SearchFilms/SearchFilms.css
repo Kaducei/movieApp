@@ -1,0 +1,17 @@
+.ant-tabs-nav-wrap {
+  justify-content: center;
+}
+.ant-tabs-nav::before {
+  display: none;
+}
+.ant-tabs-nav-list::before {
+  position: absolute;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  border-bottom: 1px solid #f0f0f0;
+  content: '';
+}
+.header {
+  padding: 0 32px;
+}
